@@ -1,0 +1,20 @@
+{
+    "name": "bluestack-project",
+    "version": "1.0.0",
+    "description": "Bluestack project",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Ashish007/bluestack-project.git"
+    },
+    "author": "Ashish Jain",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Ashish007/bluestack-project/issues"
+    },
+    "homepage": "https://github.com/Ashish007/bluestack-project#readme"
+  }
+  
