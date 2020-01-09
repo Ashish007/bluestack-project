@@ -14,7 +14,33 @@ module.exports = {
         use: {
           loader: "babel-loader"
         }
-      }
+      },
+      {
+        test: /\.s[ac]ss$/i,
+        use: [{
+          loader: "style-loader"
+        },
+        {
+          loader: "css-loader",
+          options: {
+            modules: {
+              localIdentName: "[name]__[local]___[hash:base64:5]",
+            }
+          }
+        },
+        {
+          loader: "sass-loader"
+        }
+        ]
+      },
+      {
+        test: /\.(png|jpe?g|gif)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+          },
+        ],
+      },
     ]
   },
   plugins: [htmlPlugin]

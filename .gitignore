@@ -1,3 +1,6 @@
+# To ignore directories
 /node_modules/
-package-lock.json
 dist/
+
+# To ignore files
+package-lock.json

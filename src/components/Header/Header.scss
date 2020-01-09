@@ -1,0 +1,7 @@
+$themeColor : #222d48;
+.container{
+    margin-left: 100px;    
+    &__header{
+        color: $themeColor;
+    }
+}
