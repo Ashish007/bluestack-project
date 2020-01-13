@@ -11,7 +11,6 @@ const Index = () => {
             <Banner />
             <Header />
             <NavHeader />
-            <DataTable />
            </>;
 };
 ReactDOM.render(<Index />, document.getElementById("index"));
